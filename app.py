@@ -387,7 +387,8 @@ def app():
     color_exp = f"[R, G, B]"
 
 
-    test = "https://ithaca-gj.eddycfd.uber.space/modelResults/16/18846/24216.geojson"
+    test = "https://ithaca-gj.eddycfd.uber.space/modelResults/10/294/378.geojson"
+    #test = "https://ithaca-gj.eddycfd.uber.space/modelResults/16/18846/24216.geojson"
 
     geojson = pdk.Layer(
         "GeoJsonLayer",
